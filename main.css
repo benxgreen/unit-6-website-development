@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700');
+
+/*=============================================================================*/
+/* Global Tags */
+
+.fa-envelope-open{ 
+	color: black;
+}
+
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2, p, a {
+    font-family: 'Lora', serif;
+}
+
+blockquote {
+  background: #5E4955;    
+  border-left: 10px solid #5E4955;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: black;
+  font-size: 24px;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+  color: black;
+}
+
+
+/*=============================================================================*/
+/* Navigation Bar */
+
+nav {
+	background-color: #5E4955;
+	text-align: center;
+	position: fixed;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	height: 30px;
+	letter-spacing: 1px;
+	word-spacing: 1em;
+	font-weight: 300;
+	padding-bottom: 10px;
+	padding-top: 1.3em;
+	margin: auto;	
+	z-index: 5;
+	-webkit-box-shadow: 0px 3px 16px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 16px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 16px -4px rgba(0,0,0,0.75);
+    
+}
+
+nav a {
+	text-decoration: none;
+	color: #ffffff
+}
+
+@media only screen and (max-width: 600px) {       
+    nav {
+        height: 20px;
+        font-size: 12px;
+        position: fixed;
+    }
+}
+
+/*==================================================================*/
+/* Contact Us Call to Action */ 
+.contact-us {
+  background-color: white;
+  border: 1px solid black;
+  -moz-border-radius: 28px;
+  -webkit-border-radius: 28px;
+  border-radius: 28px;
+  font-size: 17px;
+  text-decoration: none;
+  color: #000000;
+  padding: 16px 31px;
+  right: 50px;
+  bottom: 30px;
+  text-align: center;
+  transition: 0.5s;
+  position: fixed;
+
+}
+
+.contact-us a:hover {
+  background-color: #C6DDF0;
+  border: 1px solid #C6DDF0;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: #ffffff
+}
+
+.contact-us:hover {
+  background-color: #C6DDF0;
+  border: 1px solid #C6DDF0;
+}
+
+
+/*==================================================================*/
+/* Wrapper for alternate pages */
+.alt-wrapper * {
+	max-width: 80%; 
+	padding-top:20px;
+	margin: auto; 	
+	height: 100%;
+	background-color: #ffffff49;
+	color: black;
+}
+
+.alt-title h1 {
+	text-align: left;
+	color: #2A2B2A;
+	font-size: 54px;
+
+}
+
+.alt-subtitle p, h2 {
+	color: black;
+	font-size: 22px;
+	line-height: 2em;	
+}
+
+.alt-wrapper iframe {
+    width: 100%;
+    height: inherit;
+}

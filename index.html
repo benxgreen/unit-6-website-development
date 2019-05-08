@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta Tags that tell the browser how to behave -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favbar Title and Favicon -->
+	<title>Home | Envirma Education</title>
+	<link rel="icon" href="https://www.freeiconspng.com/uploads/education-png-30.png" sizes="16x16" type="image/png">
+    
+    <!-- Style Sheets for my main content and animations -->
+	<link rel="stylesheet" type="text/css" media="screen" href="main.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="animate.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+<body>
+    
+<style>
+/*=============================================================================*/
+/* Hero Image CSS file (Cannot be put in main.css as it will be applied globally */	
+/* Hero Page */
+.hero-title {
+	text-align: center;
+	padding-top: 20%;
+	left: 19.3%;
+	color: #ffffff;
+}
+
+.hero-title h1 {
+	font-size: 54px;
+	font-family: 'Lora', serif;
+    font-weight: 200;
+	color: white;
+
+}
+
+.hero-title p {
+	font-size: 20px;
+	margin-bottom: 1em;
+	color: white;
+	font-family: 'Lora', serif;
+	
+}    
+
+/*==================================================================*/
+
+.get-started-btn {
+	background-color:#c99da3;
+	-moz-border-radius:38px;
+	-webkit-border-radius:38px;
+	border-radius:38px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Roboto', serif;
+	font-size:16px;
+	text-transform: uppercase;
+	font-weight:bold;
+	height: 30px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	padding-right: 25px;
+	padding-left: 25px;
+	text-shadow:0px 1px 0px #c99da3;
+	transition: 0.5s;
+}
+.get-started-btn a{
+		text-decoration: none;
+		color: #ffffff
+}
+
+.get-started-btn:hover {
+	background-color:#8f6b70;
+}
+.get-started-btn:active {
+	position:relative;
+	top:1px;
+}
+
+/*==================================================================*/
+
+/* Student Quotes */
+.student-quote {
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	left: 50px;
+	-webkit-text-shadow: 0px 3px 16px -4px rgba(0,0,0,0.75);
+	-moz-text-shadow: 0px 3px 16px -4px rgba(0,0,0,0.75);
+	text-shadow: 0px 3px 16px -4px rgba(0,0,0,0.75);
+	font-family: 'Lora', serif;
+}
+.student-quote-main {
+	font-size: 18px;
+}
+
+.student-quote-subtitle {
+	font-style: italic;
+	font-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {        
+    .student-quote {
+        text-align: center;
+        color: white;
+        left: 15%;
+    }
+    
+    .contact-us {
+        display: none;
+    }    
+}
+    
+/*==================================================================*/
+/* Hero Image */
+
+body {	
+    background-image: url("https://i.imgur.com/cZwXr19.jpg");	
+    background-repeat: repeat;
+    background-size: cover;
+    background-color: #21212149;
+}
+    
+        
+@media only screen and (max-width: 600px) {        
+    body {
+        background-image: url("https://i.imgur.com/LOcJmdA.jpg");
+  			background-repeat: repeat;
+			background-size: cover;        
+    }
+ }
+/* End of Style */
+/*==================================================================*/
+</style>
+	    
+    
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="about.html#testimonials">Testimonials</a>
+    <a href="mailto:ben@bjgreen.co.uk?subject=Envirma Education | Media Production Unit 6&body=To the attention of sir/madam,
+
+Envirma Education | Media Production Unit 6">Contact</a>
+	<a href="https://www.twitter.com/TheGrangeDorset">Twitter</a>
+</nav>
+    
+<!-- Hero Title-->
+	<div class="hero-title">
+		<h1>Where Education Matters.</h1>
+		<div class="left animated bounceInDown">
+			<div class="get-started-btn">
+				<a href="about.html" class="get-started-button">Get Started</a>
+			</div>
+		</div>
+	</div>
+<!-- End of Title-->
+
+<br>
+
+<!-- Student Quote Button Bottom Right-->
+<div class="student-quote">
+	<div class="student-quote-main">
+		<p>"Amazing teachers, picked up the core subject <br />really easily and glad I attended!"</p>
+	</div>
+	<div class="student-quote-subtitle">
+		<p>An ex-student</p>
+	</div>
+</div>
+    
+<!-- End of Student Quote Button-->
+
+<!-- Contact Button Bottom Right-->
+<a href="mailto:ben@bjgreen.co.uk?subject=Envirma Education | Media Production Unit 6&body=To the attention of sir/madam,
+
+Envirma Education | Media Production Unit 6" class="contact-us">Click here to contact us! <i class="far fa-envelope-open"></i>
+</a>
+<!-- End of Contact contact-us-->
+
+</body>
+</html>
