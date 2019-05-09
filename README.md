@@ -3,7 +3,7 @@ Unit 6 - Learning Aim C - Website Development | *Envirma Education*
 My website I created for my Creative Digital Media Level 2 Unit 6 (Website Development Learning Aim C) course. The code was created by myself apart from some CSS and the animate.css file. 
 
 ## What is Envirma Education?
-Envirma Education is an example website I created for the Pearsons/Edexcel Digital Creative Media course, specifically Unit 6, Learning Aim C. All this code is what I learnt through my course as well as the prior knowledge I had from development projects such as my personal website, [https://www.bjgreen.co.uk](https://www.bjgreen.co.uk), as a client project.
+Envirma Education is an example website I created for the Pearsons/Edexcel Digital Creative Media course, specifically Unit 6, Learning Aim C. All this code is what I learnt through my course as well as the prior knowledge I had from development projects such as my personal website, [https://www.bjgreen.co.uk](https://www.bjgreen.co.uk), and also a client project.
 
 ## How do I use this project?
 On the top right inside the code tab, you are able to download this repository and edit it as you choose, for free without any copyright problems! You are able to click on each HTML or CSS file to view the code within Github.
